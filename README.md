@@ -61,6 +61,6 @@
 - JS Files
 - PHP File (Pro)
 
-**Documentation:** Documentation files included in the client download package and links to online documentation are also provided.
+**Documentation:** Documentation files included in the client download package and links to online documentation are also provided. (Pro)
 
 **Note:** This item is HTML Template, It’s not a WordPress Theme. **Images** are only for demo **purpose**, not included in **download** files. (Pro)
