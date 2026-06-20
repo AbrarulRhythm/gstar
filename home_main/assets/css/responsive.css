@@ -1,0 +1,146 @@
+/* 
+==================================================
+- Template Name: Gstar
+- Author: MountainTheme 
+- Description: Gstar - Personal Portfolio HTML Template
+- File Description: Responsive css file of the template
+- Version: 1.0.0
+==================================================
+*/
+
+/* Extra extra large */
+@media screen and (max-width:1400px) {}
+
+/* Extra large */
+@media screen and (max-width:1200px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* [ Personal Info / Sidebar ] */
+    /*================================================== */
+    .gstar-personal-info {
+        margin-bottom: 24px;
+    }
+
+    .call-to-action-area-part:is(.pr-192),
+    .call-to-action-area-part:is(.pr-76) {
+        padding-right: 118px;
+    }
+
+    .call-to-action-area-part:is(.pl-192),
+    .call-to-action-area-part:is(.pl-76) {
+        padding-left: 118px;
+    }
+
+    .call-to-action-area-part h2:is(.text-6xl) {
+        font-size: 34px;
+    }
+}
+
+/* Large */
+@media screen and (max-width:992px) {
+
+    /*** Page Title ***/
+    .page-title h3::after {
+        width: 74%;
+    }
+
+    /* [ Header ] */
+    /*================================================== */
+    .primary-menu .menu-container {
+        padding: 16px 20px;
+    }
+
+    .primary-menu #navbarNav {
+        position: absolute;
+        top: 114%;
+        left: 0;
+        right: 0;
+        background: var(--section-bg);
+        margin-top: 0;
+        border-radius: 6px;
+        -webkit-box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.08);
+        z-index: 11;
+    }
+
+    .primary-menu .navbar-nav {
+        padding: 20px;
+    }
+
+    .primary-menu .navbar-nav .nav-link {
+        padding: 8px 0;
+    }
+
+    /* [ Personal Info / Sidebar ] */
+    /*================================================== */
+    .gstar-personal-info {
+        padding: 36px 32px;
+        margin-bottom: 24px;
+    }
+
+    /* [ Pages ] */
+    /*================================================== */
+    .section-inner-wrapper:is(.pt-32) {
+        padding-top: 36px;
+    }
+}
+
+/* Medium */
+@media screen and (max-width:767px) {
+
+    /* [ Header ] */
+    /*================================================== */
+    .header:is(.mb-48) {
+        margin-bottom: 38px;
+    }
+
+    /* [ Personal Info / Sidebar ] */
+    /*================================================== */
+    .gstar-personal-info {
+        padding: 32px 18px;
+    }
+
+    /* [ Pages ] */
+    /*================================================== */
+    .section-inner-wrapper:is(.pt-32) {
+        padding-top: 32px;
+    }
+
+    .section-inner-wrapper:is(.pl-32) {
+        padding-right: 18px;
+    }
+
+    .section-inner-wrapper:is(.pr-32) {
+        padding-left: 18px;
+    }
+}
+
+/* Small */
+@media screen and (max-width:576px) {
+
+    /* [ About ] */
+    /*================================================== */
+    .about-head:is(.text-7xl) {
+        font-size: 36px;
+    }
+
+    /*** Clients ***/
+    .clients h4.text-xl {
+        padding-bottom: 42px;
+    }
+
+    .clients .owl-nav {
+        right: unset;
+    }
+}
+
+/* Extra small */
+@media screen and (max-width:360px) {
+
+    /* [ About ] */
+    /*================================================== */
+    .about-head:is(.text-7xl) {
+        font-size: 32px;
+    }
+}
